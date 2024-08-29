@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="formularios">
+        <form id="form1">
+
+            <h1 id="titulo">Cálculo de IMC</h1>
+
+            <label for="Peso" id="labelPeso">Peso:</label><br>
+            <input type="int" placeholder="em KG" id="userPeso"><br><br>
+
+            <label for="Altura" id="labelAltura">Altura:</label><br>
+            <input type="float" placeholder="em CM" id="userAltura"><br><br>
+        
+            <button id="buttonCalcular">Calcular</button>
+
+            <input type="reset" id="buttonLimpar" value="Limpar">
+
+            <p id="resultadoEsperado"> </p>
+            <p id="mensagemPeso"> </p>
+
+            <label for="languageSwitcher" id="labelLanguage">Idioma:</label>
+            <select id="languageSwitcher">
+                <option value="pt">Português</option>
+                <option value="en">English</option>
+                <option value="ru">Русский</option>
+            </select>
+        </form> 
+    </div>
+    
+    <script src="main.js"></script>
+    
+</body>
+</html>
